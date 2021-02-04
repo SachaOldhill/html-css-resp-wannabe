@@ -1,0 +1,39 @@
+@media all and (max-width:580px){
+  *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 13px;
+  }
+  html{
+    position: relative;
+  }
+  img{
+    height: 125px;
+  }
+  .row{
+    width: 100%;
+  }
+  h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+  h3{
+    font-size: 16px;
+  }
+  .central{
+    margin: 0 5%;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 30%;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 47.5%;
+  }
+  #lezioni .row>.left{
+    margin-right: 5%;
+  }
